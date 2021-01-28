@@ -15,7 +15,9 @@ int main(int argc, char *argv[]) {
 				/* printf("AMOSH>"); */
 				/* fgets( command, 100, stdin ); */
 				char *command = readline("AMOSH> ");
-				add_history(command);
+				if ( strlen(command) > 0 ) {
+					add_history(command);
+				};
 				char lowercase[100];
 				for ( int i = 0; i <= strlen(command); i++) {
 					lowercase[i] = tolower(command[i]);
