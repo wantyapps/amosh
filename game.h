@@ -3,11 +3,11 @@
 
 int game() {
 	int lives = 10;
-	char name[100];
 	char place[] = "Base";
+	char name[100];
 	printf("Making a character...\n");
-	printf("Name: ");
 	while ( 0 == 0 ) {
+		printf("NAME> ");
 		fgets(name, 100, stdin);
 		if ( strcmp( name, "\n" ) == 0 ) {
 			printf("");
