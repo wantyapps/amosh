@@ -1,3 +1,4 @@
+// Am I supposed to transform the project into C++?
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
