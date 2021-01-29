@@ -10,10 +10,7 @@
 int main(int argc, char *argv[]) {
 	if ( argc >= 2 ) {
 		if ( strcmp(argv[1], "--run" ) == 0 || strcmp( argv[1], "-r" ) == 0 ) {
-			/* char command[100]; */
 			while ( 0 == 0 ) {
-				/* printf("AMOSH>"); */
-				/* fgets( command, 100, stdin ); */
 				char *command = readline("AMOSH> ");
 				if ( strcmp(command, "") != 0 ) {
 					add_history(command);
