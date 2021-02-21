@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-#include "funcs.h"
+#include "funcs.hpp"
 #include <readline/readline.h>
 #include <readline/history.h>
 #include "game.hpp"
