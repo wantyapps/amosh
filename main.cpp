@@ -45,7 +45,13 @@ int main(int argc, char *argv[]) {
 					printf("Command not found.\n");
 				};
 			};
+		} else {
+			usage();
+			return 1;
 		};
+	} else {
+		usage();
+		return 1;
 	};
 	return 0;
 }
