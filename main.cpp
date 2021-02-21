@@ -4,7 +4,7 @@
 #include "funcs.h"
 #include <readline/readline.h>
 #include <readline/history.h>
-#include "game.h"
+#include "game.hpp"
 
 int main(int argc, char *argv[]) {
 	if ( argc >= 2 ) {
