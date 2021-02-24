@@ -41,6 +41,11 @@ int main(int argc, char *argv[]) {
 					} else {
 						printf("");
 					};
+				} else if ( strcmp( lowercase, "exec" ) == 0 ) {
+					char cmd[100];
+					printf("CMD> ");
+					fgets(cmd, 100, stdin);
+					exec(cmd);
 				} else {
 					printf("Command not found.\n");
 				};
