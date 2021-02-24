@@ -8,7 +8,7 @@ int clear() {
 }
 
 int usage() {
-	printf("USAGE: amosh [-r/--run (required to run the program)");
+	printf("USAGE: amosh [-r/--run (required to run the program)\n");
 	return 1;
 }
 
