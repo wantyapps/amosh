@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 				for ( int i = 0; i <= strlen(command); i++) {
 					lowercase[i] = tolower(command[i]);
 				};
-				if ( strcmp( lowercase, "load\"floppy\"\n" ) == 0 ) {
+				if ( strcmp( command, "load\"floppy\"" ) == 0 ) {
 					printf("Loading...\n");
 					printf("Happy Birthday, Dad!\n");
 				} else if ( strcmp( lowercase, "clear" ) == 0 ) {
