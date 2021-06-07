@@ -12,4 +12,4 @@ run `help` inside Amosh
 
 ## Uninstall
 
-Delete /usr/local/bin/amosh
+Delete `/usr/local/bin/amosh`
