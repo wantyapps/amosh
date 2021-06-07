@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 				};
 				if ( strcmp( command, "load\"floppy\"" ) == 0 ) {
 					printf("Loading...\n");
-					printf("Happy Birthday, Dad!\n");
+					printf("Happy birthday, Dad!\n");
 				} else if ( strcmp( lowercase, "clear" ) == 0 ) {
 					clear();
 				} else if ( strcmp( command, "" ) == 0 ) {
@@ -46,6 +46,16 @@ int main(int argc, char *argv[]) {
 					printf("CMD> ");
 					fgets(cmd, 100, stdin);
 					exec(cmd);
+				} else if ( strcmp( lowercase, "help" ) == 0 ) {
+					printf("Help:\n");
+					printf("COMMAND              INFO\n");
+					printf("load\"floppy\"         Load contents of a floppy disk inserted to an AMOSH-X1 Machine\n");
+					printf("clear                Clear console\n");
+					printf("easteregg            Easter egg. (under development)\n");
+					printf("exec                 Execute a shell command\n");
+					printf("help                 Show this help manual\n");
+					printf("exit                 Exit\n");
+
 				} else {
 					printf("Command not found.\n");
 				};
